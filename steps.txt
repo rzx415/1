@@ -1,0 +1,19 @@
+    1  sh pycharm.sh 
+    2  git push -u origin master2
+    3  echo "# 1" >> README.md
+    4  git init 
+    5  git add README.md
+    6  git commit -m "first commit"
+    7  git remote add origin https://github.com/rzx415/1.git
+    8  git push -u origin master
+    9  git config --global user.name "rzx415"
+   10  git config --global user.email "alirzx415@gmail.com"
+   11  git pull origin master
+   12  ls
+   13  git branch --set-upstream-to=origin/master
+   14  git add -A
+   15  git commit -m "Example for change"
+   16  git push
+   17  git remote add origin git@github.com:rzx415/project.git
+   18  git push origin master 
+   19  history > steps.txt
